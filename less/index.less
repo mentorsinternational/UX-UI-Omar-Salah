@@ -50,36 +50,57 @@ table {
 // ~~~~~~~~~~~~~~~<END CSS RESET>~~~~~~~~~~~~~~~~~~~~~~~~~~
 .container{
     min-width: 100px;
-    background: grey;
+    max-width: 1500px;
+    background: @btn-bg-color;
     margin: 0 auto;
     text-align: center;
     
     h2{
         font-size: 2rem;
-        margin: 10px 0;
+        margin: 5px;
     }
 
     h3{
         font-size: 1.5rem;
+        margin: 10px;
     }
     
     p{
         font-size: 1.2rem;
-        line-height: 1.5rem; 
+        line-height: 1.7rem; 
         margin: 10px;
     }
     
     img{
         max-width: 95%;
         height:auto;
-        margin: 0 auto;
+        margin: 15px auto;
+        border-radius: 10px;
     }
+    @media (min-width: 1000px) {
+        img{
+            max-height: 500px;
+        }
+    }
+
     
     section{
-        margin: 25px 0;
-        width: 100%;
-
+        margin: 15px auto;
+        padding: 15px 0;
+        background: grey;
+        width: 95%;
+        border: 1px solid @border-color;
+        border-radius: 10px;
     }
+
+    @media (min-width: 1000px) {
+        .who-we-are{
+            img{
+                display: none;
+            }
+        }
+    }
+
 
     ul{
         text-align: left;
@@ -119,6 +140,7 @@ table {
         .testimony{
             display: flex;
             flex-direction: column;
+            // visibility: hidden; In preperation for JS components carousel.
         }
     }
 }

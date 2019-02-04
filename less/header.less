@@ -2,13 +2,20 @@ header{
     display: flex;
     flex-direction: column;
     background: @header-bg;
+    
+    @media (min-width: 1800px) {
+        header{
+            border-radius: 10px;
+        }
+    }
+
 
     img{
         max-width: 40%;
         max-height: 150px;
         margin: 0 auto;
     }
-
+    
     nav{
         display: flex;
         justify-content: space-around;
