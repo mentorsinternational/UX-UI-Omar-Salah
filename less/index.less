@@ -50,40 +50,49 @@ table {
 // ~~~~~~~~~~~~~~~<END CSS RESET>~~~~~~~~~~~~~~~~~~~~~~~~~~
 @import './variables';
 @import './mixins';
+@import './header';
+@import './footer';
 // ~~~~~~~~~~~~~~~<END LESS ASSET IMPORTS>~~~~~~~~~~~~~~~
 .container{
-    max-width: 800px;
+    min-width: 100px;
     background: grey;
     margin: 0 auto;
-
-
-    header{
-        display: flex;
-        flex-direction: column;
-
-        img{
-            max-width: 40%;
-            margin: 0 auto;
-        }
-
-        nav{
-            display: flex;
-            justify-content: space-between;
-        }
-    }
-
+    text-align: center;
+    
     h2{
         font-size: 2rem;
         margin: 10px 0;
     }
-
+    
     p{
         font-size: 1.2rem;
         line-height: 1.5rem; 
         margin: 10px 0;
     }
-
+    
     img{
         width: 100%;
+        height:325px;
+    }
+    
+    section{
+        margin: 25px 0;
+        width: 100%;
+    }
+    
+    button{
+        width: 80%;
+        height:70px;
+        margin: 0 auto;
+        border: 1px solid @border-color;
+        background: @btn-bg-color;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        
+        &:hover{
+            transform: scale(1.2);
+            background: black;
+            color: @btn-bg-color;
+        }
     }
 }
