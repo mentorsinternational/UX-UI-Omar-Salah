@@ -48,3 +48,42 @@ table {
 }
 
 // ~~~~~~~~~~~~~~~<END CSS RESET>~~~~~~~~~~~~~~~~~~~~~~~~~~
+@import './variables';
+@import './mixins';
+// ~~~~~~~~~~~~~~~<END LESS ASSET IMPORTS>~~~~~~~~~~~~~~~
+.container{
+    max-width: 800px;
+    background: grey;
+    margin: 0 auto;
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+
+        img{
+            max-width: 40%;
+            margin: 0 auto;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    h2{
+        font-size: 2rem;
+        margin: 10px 0;
+    }
+
+    p{
+        font-size: 1.2rem;
+        line-height: 1.5rem; 
+        margin: 10px 0;
+    }
+
+    img{
+        width: 100%;
+    }
+}
