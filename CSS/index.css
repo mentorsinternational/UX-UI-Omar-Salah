@@ -129,9 +129,10 @@ table {
 .container {
   min-width: 100px;
   max-width: 1500px;
-  background: #62cdff;
+  background: #2a2a2a;
   margin: 0 auto;
   text-align: center;
+  color: white;
 }
 .container h2 {
   font-size: 2rem;
@@ -160,7 +161,7 @@ table {
 .container section {
   margin: 15px auto;
   padding: 15px 0;
-  background: grey;
+  background: #556f7e;
   width: 95%;
   border: 1px solid #f3f3f3;
   border-radius: 10px;
@@ -211,7 +212,7 @@ header {
   flex-direction: column;
   background: #000000cc;
 }
-@media (min-width: 1800px) {
+@media (min-width: 1000px) {
   header header {
     border-radius: 10px;
   }
