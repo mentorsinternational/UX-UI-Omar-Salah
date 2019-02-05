@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container {
+  min-width: 100px;
+  max-width: 1500px;
+  background: #2a2a2a;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.container h2 {
+  font-size: 2rem;
+  margin: 5px;
+}
+.container h3 {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+.container p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  margin: 10px;
+}
+.container img {
+  max-width: 95%;
+  height: auto;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+@media (min-width: 1000px) {
+  .container img {
+    max-height: 500px;
+  }
+}
+.container section {
+  margin: 15px auto;
+  padding: 15px 0;
+  background: #556f7e;
+  width: 95%;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+}
+@media (min-width: 1000px) {
+  .container .who-we-are img {
+    display: none;
+  }
+}
+.container ul {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style: disc;
+  padding: 15px;
+}
+.container ul li {
+  text-align: left;
+  margin: 10px;
+}
+.container .sign-up {
+  text-align: center;
+}
+.container .sign-up button {
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+  border: 1px solid #f3f3f3;
+  background: #62cdff;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  transition: 1s;
+}
+.container .sign-up button:hover {
+  transform: scale(1.2);
+  background: black;
+  color: #62cdff;
+  cursor: pointer;
+}
+.container .testimonials {
+  display: flex;
+  flex-direction: column;
+}
+.container .testimonials .testimony {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  opacity: 0;
+}
+.width-100 {
+  width: 100%;
+}
+.border-bottom-grey {
+  border-bottom: 1px solid #f3f3f3;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background: #000000cc;
+}
+@media (min-width: 1000px) {
+  header header {
+    border-radius: 10px;
+  }
+}
+header img {
+  max-width: 40%;
+  max-height: 150px;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+header nav a {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-size: 1.5rem;
+  transition: 1s;
+}
+header nav a:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+footer {
+  background: #262626;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+footer nav a {
+  text-decoration: none;
+  color: #62cdff;
+  font-size: 1rem;
+  transition: 1s;
+}
+footer nav a:hover {
+  transform: scale(1.2);
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 16px;
+}
+.carousel .left-button,
+.carousel .right-button {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: row;
+  color: #f3f3f3;
+  background-color: #2a2a2a;
+  font-size: 40px;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 10;
+}
+.carousel .left-button:hover,
+.carousel .right-button:hover {
+  color: black;
+  background-color: #62cdff;
+  border: 2px solid #f3f3f3;
+}
+.carousel .left-button {
+  top: 50%;
+  left: 25px;
+  transform: translate(0, -50%);
+}
+.carousel .right-button {
+  top: 50%;
+  right: 25px;
+  transform: translate(0, -50%);
+}
+.carousel .hidden {
+  display: none;
+}
