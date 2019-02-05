@@ -33,7 +33,7 @@ These MVP features represent the fundamental knowledge you should have obtained 
 
 [x]    Build layout HTML/LESS: Home page mobile first design
 [x]    Build layout HTML/LESS: Home page desktop design
-        [X] Add breakoints
+        [X] Add breakpoints
 [x]    Build layout style using LESS
         [x] Add mixins
         [x] Add variables
