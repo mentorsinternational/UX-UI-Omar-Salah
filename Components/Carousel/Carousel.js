@@ -14,7 +14,7 @@ class Carousel {
     
     cycleLeft () {
         this.storyList.forEach(story => TweenMax.to(story, 2, {opacity: 0}))
-        TweenMax.to(this.storyList[this.index] , 1.5, {x: -1500} )
+        TweenMax.to(this.storyList[this.index] , 1.5, {x: 1500} )
         TweenMax.to(this.storyList[this.index] , 0, { delay: .80,  x: 0, display: 'none'} )
         this.index === 0 ? this.index = this.storyList.length-1 : this.index --
         TweenMax.to(this.storyList[this.index] , 1.5, { display: 'block', delay: 1, opacity :1} )
@@ -22,7 +22,7 @@ class Carousel {
     
     cycleRight () {
         this.storyList.forEach(story => TweenMax.to(story, 2, {opacity: 0}))
-        TweenMax.to(this.storyList[this.index] , 1.5, {x: 1500} )
+        TweenMax.to(this.storyList[this.index] , 1.5, {x: -1500} )
         TweenMax.to(this.storyList[this.index] , 0, { delay: .80, display: 'none', x: 0} )
         this.index == this.storyList.length - 1 ? this.index = 0 : this.index ++;
         TweenMax.to(this.storyList[this.index] , 1.5, { display: 'block', delay: 1, opacity :1} )
