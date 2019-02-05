@@ -3,7 +3,6 @@ class Carousel {
         this.leftBtn = carousel.querySelector(".left-button");
         this.rightBtn = carousel.querySelector(".right-button");
         this.storyList = Array.from(carousel.querySelectorAll(".testimony"));
-        console.log(this.storyList);
         // Set Defaults
         this.index = 0
         this.storyList[this.index].style.display = 'flex'
