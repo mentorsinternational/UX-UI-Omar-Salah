@@ -3,8 +3,8 @@ class Carousel {
         this.leftBtn = carousel.querySelector(".left-button");
         this.rightBtn = carousel.querySelector(".right-button");
         this.storyList = Array.from(carousel.querySelectorAll(".testimony"));
-        this.storyList.sort();
-        // Set Defaults story
+        console.log(this.storyList);
+        // Set Defaults
         this.index = 0
         this.storyList[this.index].style.display = 'flex'
         this.storyList[this.index].style.opacity = '1'
@@ -17,7 +17,7 @@ class Carousel {
         TweenMax.to(this.storyList[this.index] , 1.5, {x: 1500} )
         TweenMax.to(this.storyList[this.index] , 0, { delay: .80,  x: 0, display: 'none'} )
         this.index === 0 ? this.index = this.storyList.length-1 : this.index --
-        TweenMax.to(this.storyList[this.index] , 1.5, { display: 'block', delay: 1, opacity :1} )
+        TweenMax.to(this.storyList[this.index] , 1.5, { display: 'block', delay: .8, opacity :1} )
     }
     
     cycleRight () {
@@ -25,7 +25,7 @@ class Carousel {
         TweenMax.to(this.storyList[this.index] , 1.5, {x: -1500} )
         TweenMax.to(this.storyList[this.index] , 0, { delay: .80, display: 'none', x: 0} )
         this.index == this.storyList.length - 1 ? this.index = 0 : this.index ++;
-        TweenMax.to(this.storyList[this.index] , 1.5, { display: 'block', delay: 1, opacity :1} )
+        TweenMax.to(this.storyList[this.index] , 2, { display: 'block', delay: .8, opacity :1} )
     }
   }
    

@@ -134,6 +134,9 @@ table {
   text-align: center;
   color: white;
 }
+.container a {
+  margin: 15px;
+}
 .container h2 {
   font-size: 2rem;
   margin: 5px;
@@ -244,6 +247,7 @@ header nav a {
 header nav a:hover {
   transform: scale(1.2);
   cursor: pointer;
+  color: #62cdff;
 }
 footer {
   background: #262626;
@@ -266,17 +270,13 @@ footer nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 800px;
+  max-height: auto;
   position: relative;
   overflow: hidden;
   margin-top: 16px;
 }
 .carousel .left-button,
 .carousel .right-button {
-  display: flex;
-  justify-content: center;
-  align-items: none;
-  flex-direction: row;
   color: #f3f3f3;
   background-color: #2a2a2a;
   font-size: 40px;
@@ -286,12 +286,15 @@ footer nav a:hover {
   height: 50px;
   cursor: pointer;
   z-index: 10;
+  user-select: none;
+  opacity: 0.3;
 }
 .carousel .left-button:hover,
 .carousel .right-button:hover {
   color: black;
   background-color: #62cdff;
   border: 2px solid #f3f3f3;
+  opacity: 0.8;
 }
 .carousel .left-button {
   top: 50%;
