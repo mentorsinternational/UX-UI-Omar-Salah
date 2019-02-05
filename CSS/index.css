@@ -198,14 +198,23 @@ table {
   transform: scale(1.2);
   background: black;
   color: #62cdff;
+  cursor: pointer;
 }
 .container .testimonials {
   display: flex;
   flex-direction: column;
 }
 .container .testimonials .testimony {
-  display: flex;
+  display: none;
+  width: 100%;
   flex-direction: column;
+  opacity: 0;
+}
+.width-100 {
+  width: 100%;
+}
+.border-bottom-grey {
+  border-bottom: 1px solid #f3f3f3;
 }
 header {
   display: flex;
@@ -234,6 +243,7 @@ header nav a {
 }
 header nav a:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
 footer {
   background: #262626;
@@ -250,4 +260,49 @@ footer nav a {
 }
 footer nav a:hover {
   transform: scale(1.2);
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 16px;
+}
+.carousel .left-button,
+.carousel .right-button {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: row;
+  color: #f3f3f3;
+  background-color: #2a2a2a;
+  font-size: 40px;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 10;
+}
+.carousel .left-button:hover,
+.carousel .right-button:hover {
+  color: black;
+  background-color: #62cdff;
+  border: 2px solid #f3f3f3;
+}
+.carousel .left-button {
+  top: 50%;
+  left: 25px;
+  transform: translate(0, -50%);
+}
+.carousel .right-button {
+  top: 50%;
+  right: 25px;
+  transform: translate(0, -50%);
+}
+.carousel .hidden {
+  display: none;
 }

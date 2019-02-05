@@ -132,6 +132,7 @@ table {
                 transform: scale(1.2);
                 background: black;
                 color: @btn-bg-color;
+                cursor: pointer;
             }
         }
     }
@@ -140,9 +141,10 @@ table {
         flex-direction: column;
 
         .testimony{
-            display: flex;
+            display: none;
+            width:100%;
             flex-direction: column;
-            // visibility: hidden; In preperation for JS components carousel.
+            opacity: 0; 
         }
     }
 }
@@ -152,3 +154,4 @@ table {
 @import './header';
 @import './footer';
 // ~~~~~~~~~~~~~~~<END LESS ASSET IMPORTS>~~~~~~~~~~~~~~~
+@import './components/Carousel/Carousel';
