@@ -119,7 +119,7 @@ table {
             margin: 10px;
         }
     }
-    
+
     .sign-up{
         text-align: center;
         button{
@@ -131,7 +131,9 @@ table {
             font-size: 1.5rem;
             border-radius: 10px;
             transition: 1s;
-            
+            @media @desktop{
+                max-width: 33%;
+            }
             &:hover{
                 transform: scale(1.2);
                 background: black;

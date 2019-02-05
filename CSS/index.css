@@ -156,7 +156,7 @@ table {
   margin: 15px auto;
   border-radius: 10px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 750px) {
   .container img {
     max-height: 500px;
   }
@@ -191,6 +191,11 @@ table {
   font-size: 1.5rem;
   border-radius: 10px;
   transition: 1s;
+}
+@media (min-width: 1200px) {
+  .container .sign-up button {
+    max-width: 33%;
+  }
 }
 .container .sign-up button:hover {
   transform: scale(1.2);
@@ -341,6 +346,11 @@ footer nav a:hover {
   color: white;
   cursor: pointer;
   user-select: none;
+}
+@media (min-width: 750px) {
+  .tabs .tabs-link {
+    width: 30%;
+  }
 }
 .tabs .tabs-link:hover {
   background-color: black;

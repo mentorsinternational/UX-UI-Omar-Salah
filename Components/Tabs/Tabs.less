@@ -30,13 +30,16 @@
       border-radius: 10px;
       user-select: none;
     }
-  
+    
     .tabs-link {
-      padding: 20px 25px;
-      font-size: 24px;
-      background-color: @btn-bg-color;
-      color: white;
-      cursor: pointer;
+        padding: 20px 25px;
+        font-size: 24px;
+        background-color: @btn-bg-color;
+        color: white;
+        cursor: pointer;
+        @media @tablet {
+            width: 30%;
+        }
       user-select: none;
 
       &:hover {
