@@ -149,6 +149,7 @@ table {
 .container h3 {
   font-size: 1.5rem;
   margin: 10px;
+  line-height: 1.7rem;
 }
 .container p {
   font-size: 1.2rem;
@@ -246,10 +247,13 @@ header nav a:hover {
 }
 footer {
   background: #262626;
+  display: flex;
 }
 footer nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  width: 30%;
 }
 footer nav a {
   text-decoration: none;

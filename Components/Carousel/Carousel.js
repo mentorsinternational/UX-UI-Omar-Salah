@@ -9,6 +9,7 @@ class Carousel {
         this.itemList[this.index].style.opacity = '1'
         // Optional tracked Card element
         this.data = this.itemList[this.index].dataset.card
+        console.log(this.itemList[this.index])
         console.log(this.data);
         this.data !== undefined 
             ? this.card = new Card(document.querySelector(`.card[data-card='${this.data}']`))  
