@@ -11,7 +11,6 @@ class Handle{
         this.handle.classList.add('handle-selected')
         this.drawer.select()
     }
-
 }
 
 class Drawer{
@@ -21,10 +20,7 @@ class Drawer{
     select(){
         document.querySelectorAll('.drawer').forEach(drawer => drawer.classList.remove("drawer-selected"));
         this.drawerElement.classList.add("drawer-selected")
+    }
 }
-}
-
-
-
 
 let handles = document.querySelectorAll('.handle').forEach( handle => new Handle(handle));

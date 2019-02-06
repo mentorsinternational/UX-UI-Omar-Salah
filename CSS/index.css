@@ -133,6 +133,11 @@ table {
   margin: 0 auto;
   text-align: center;
   color: white;
+  line-height: 1.2rem;
+}
+.container .logo {
+  max-width: 40%;
+  max-height: 150px;
 }
 .container a {
   margin: 15px;
@@ -194,7 +199,7 @@ table {
 }
 @media (min-width: 1200px) {
   .container .sign-up button {
-    max-width: 33%;
+    max-width: 30%;
   }
 }
 .container .sign-up button:hover {
@@ -206,12 +211,6 @@ table {
 .container .testimonials {
   display: flex;
   flex-direction: column;
-}
-.container .testimonials .testimony {
-  display: none;
-  width: 100%;
-  flex-direction: column;
-  opacity: 0;
 }
 .width-100 {
   width: 100%;
@@ -228,11 +227,6 @@ header {
   header header {
     border-radius: 10px;
   }
-}
-header img {
-  max-width: 40%;
-  max-height: 150px;
-  margin: 0 auto;
 }
 header nav {
   display: flex;
@@ -265,6 +259,9 @@ footer nav a {
 footer nav a:hover {
   transform: scale(1.2);
 }
+.img-carousel {
+  height: 600px;
+}
 .carousel {
   display: flex;
   justify-content: center;
@@ -275,8 +272,17 @@ footer nav a:hover {
   overflow: hidden;
   margin-top: 16px;
 }
+.carousel img {
+  max-height: 500px;
+  max-width: 80%;
+  margin: auto auto;
+}
 .carousel .left-button,
 .carousel .right-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   color: #f3f3f3;
   background-color: #2a2a2a;
   font-size: 40px;
@@ -306,8 +312,17 @@ footer nav a:hover {
   right: 25px;
   transform: translate(0, -50%);
 }
-.carousel .hidden {
+.carousel .item {
   display: none;
+  width: 100%;
+  flex-direction: column;
+  opacity: 0;
+}
+.carousel .card {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  opacity: 0;
 }
 .tabs {
   width: 95%;

@@ -55,6 +55,12 @@ table {
     margin: 0 auto;
     text-align: center;
     color: white;
+    line-height: 1.2rem;
+
+    .logo{
+        max-width: 40%;
+        max-height: 150px;
+    }
 
     a{
         margin: 15px;
@@ -132,7 +138,7 @@ table {
             border-radius: 10px;
             transition: 1s;
             @media @desktop{
-                max-width: 33%;
+                max-width: 30%;
             }
             &:hover{
                 transform: scale(1.2);
@@ -145,13 +151,6 @@ table {
     .testimonials{
         display: flex;
         flex-direction: column;
-
-        .testimony{
-            display: none;
-            width:100%;
-            flex-direction: column;
-            opacity: 0; 
-        }
     }
 }
 // ~~~~~~~~~~~~~~~<END INDEX GENERAL STYLES>~~~~~~~~~~~~~~~~~~~~~
@@ -159,6 +158,7 @@ table {
 @import './mixins';
 @import './header';
 @import './footer';
+@import './marketing';
 // ~~~~~~~~~~~~~~~<END LESS ASSET IMPORTS>~~~~~~~~~~~~~~~
-@import './components/Carousel/Carousel';
+@import './components/Carousel/Carousel.less';
 @import '../components/Tabs/Tabs.less';
