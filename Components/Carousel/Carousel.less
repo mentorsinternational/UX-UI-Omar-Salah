@@ -1,14 +1,18 @@
 .carousel {
-    .flex(center, center);
+    .flex(center, center,);
     max-height: auto;
     position: relative;
     overflow: hidden;
-    margin-top: 16px;
+    margin-top: auto;
 
     img{
-      max-height: 500px;
+      max-height: 300px;
       max-width: 80%;
-      margin: auto auto;
+      margin: 25px auto;
+      
+      @media @tablet{
+        max-height: 600px;
+      }
   }
       
     .left-button, .right-button {
@@ -23,7 +27,7 @@
       cursor: pointer;
       z-index: 10;
       user-select: none;
-      opacity: .3;
+      opacity: .2;
 
       &:hover {
         color: black;
@@ -49,6 +53,7 @@
         opacity: 0;
     }
     .card-container{
+      height: 300px;
 
       .card{
         display: none;
