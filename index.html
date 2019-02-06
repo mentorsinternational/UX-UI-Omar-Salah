@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="https://mentorsinternational.org/wp-content/uploads/2014/11/favicon.ico" type="image/x-icon">
   <script src="./Components/Carousel/Carousel.js" async></script>
   <script defer="defer" src="./components/Tabs/Tabs.js" async></script>
+  <script defer="defer" src="./components/Drawer/Drawer.js" async></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" async ></script>
 </head>
 
@@ -113,14 +114,39 @@
             <div class="tabs-items">
                 <div class="tabs-item tabs-item-selected" data-tab="1">
                     <div class="tabs-item-title">Features</div>
-                    <div class="tabs-item-description">
-                        <ul class="featureList">
-                            <li>Feature 1</li>
-                            <li>Feature 2</li>
-                            <li>Feature 3</li>
-                            <li>Feature 4</li>
-                            <li>Feature 5</li>
-                        </ul>
+                    <ul class="featureList">
+                        <li class="handle handle-selected" data-drawer ="1" >Feature 1</li>
+                        <li class="handle" data-drawer ="2">Feature 2</li>
+                        <li class="handle" data-drawer ="3">Feature 3</li>
+                        <li class="handle" data-drawer ="4">Feature 4</li>
+                        <li class="handle" data-drawer ="5">Feature 5</li>
+                    </ul>
+                    <div class="drawers">
+                        <div class="drawer drawer-selected" data-drawer ="1">
+                            <p>
+
+                            </p>
+                        </div>
+                        <div class="drawer" data-drawer ="2">
+                            <p>
+
+                            </p>
+                        </div>
+                        <div class="drawer" data-drawer ="3">
+                            <p>
+
+                            </p>
+                        </div>
+                        <div class="drawer" data-drawer ="4">
+                            <p>
+
+                            </p>
+                        </div>
+                        <div class="drawer" data-drawer ="5">
+                            <p>
+
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="tabs-item" data-tab="2">
