@@ -181,6 +181,11 @@ body .container p {
   line-height: 1.7rem;
   margin: 15px;
 }
+@media (min-width: 750px) {
+  body .container p {
+    margin-bottom: 3%;
+  }
+}
 body .container img {
   max-width: 95%;
   height: auto;
@@ -238,6 +243,7 @@ body .container .sign-up button:hover {
 body .container .testimonials {
   display: flex;
   flex-direction: column;
+  padding: 2%;
 }
 @media (min-width: 750px) {
   body .container .testimonials img {
