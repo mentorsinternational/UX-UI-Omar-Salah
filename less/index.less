@@ -29,7 +29,10 @@ time, mark, audio, video {
     bottom: -500px;
     right: 2%;
     @media @tablet{
-
+        right: 17%;
+        @media @desktop{
+            right: 2%;
+        }
     }
 }
 /* HTML5 display-role reset for older browsers */
@@ -115,7 +118,6 @@ body{
             }
         }
 
-        
         section{
             margin: 15px auto;
             padding: 15px 0;
@@ -124,17 +126,7 @@ body{
             border: 1px solid @border-color;
             border-radius: 10px;
             overflow: hidden;
-            // box-shadow: -1px 10px teal;
         }
-
-        // @media @tablet {
-        //     // .who-we-are{
-        //     //     img{
-        //     //         display: none;
-        //     //     }
-        //     // }
-        // }
-
 
         ul{
             text-align: left;
