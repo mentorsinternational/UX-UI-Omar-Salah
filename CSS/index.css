@@ -90,6 +90,11 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+.dont-worry-about-it {
+  position: fixed;
+  bottom: -500px;
+  margin: 0 auto;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -126,55 +131,58 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.container {
+body {
+  background: #3a3a3a;
+}
+body .container {
   min-width: 100px;
   max-width: 1300px;
-  background: #3a3a3a;
   margin: 0 auto;
   text-align: center;
   color: white;
   line-height: 1.2rem;
+  position: relative;
 }
-.container .logo {
+body .container .logo {
   max-width: 40%;
   max-height: 150px;
 }
-.container a {
+body .container a {
   margin: 15px;
   font-size: 1.5rem;
 }
-.container h2 {
+body .container h2 {
   font-size: 2.5rem;
   margin: 30px;
   text-decoration: underline;
 }
-.container h3 {
+body .container h3 {
   font-size: 2rem;
   margin: 20px;
   line-height: 1.7rem;
 }
-.container h4 {
+body .container h4 {
   font-size: 1.6rem;
   margin: 20px;
   line-height: 1.7rem;
 }
-.container p {
+body .container p {
   font-size: 1.4rem;
   line-height: 1.7rem;
   margin: 10px;
 }
-.container img {
+body .container img {
   max-width: 95%;
   height: auto;
   margin: 15px auto;
   border-radius: 10px;
 }
 @media (min-width: 750px) {
-  .container img {
+  body .container img {
     max-height: 500px;
   }
 }
-.container section {
+body .container section {
   margin: 15px auto;
   padding: 15px 0;
   background: #556f7e;
@@ -183,20 +191,20 @@ table {
   border-radius: 10px;
   overflow: hidden;
 }
-.container ul {
+body .container ul {
   text-align: left;
   font-size: 1.2rem;
   list-style: disc;
   padding: 15px;
 }
-.container ul li {
+body .container ul li {
   text-align: left;
   margin: 10px;
 }
-.container .sign-up {
+body .container .sign-up {
   text-align: center;
 }
-.container .sign-up button {
+body .container .sign-up button {
   width: 80%;
   height: 70px;
   margin: 30px auto;
@@ -207,17 +215,17 @@ table {
   transition: 1s;
 }
 @media (min-width: 1200px) {
-  .container .sign-up button {
+  body .container .sign-up button {
     max-width: 30%;
   }
 }
-.container .sign-up button:hover {
+body .container .sign-up button:hover {
   transform: scale(1.2);
   background: black;
   color: #62cdff;
   cursor: pointer;
 }
-.container .testimonials {
+body .container .testimonials {
   display: flex;
   flex-direction: column;
 }
