@@ -312,6 +312,12 @@ footer .contact {
     height: 800px;
   }
 }
+.review {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 40%;
+  margin: auto;
+}
 .carousel {
   display: flex;
   justify-content: center;
@@ -347,8 +353,8 @@ footer .contact {
   height: 50px;
   cursor: pointer;
   z-index: 10;
-  user-select: none;
   opacity: 0.2;
+  user-select: none;
 }
 .carousel .left-button:hover,
 .carousel .right-button:hover {
