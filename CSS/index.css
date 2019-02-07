@@ -179,7 +179,7 @@ body .container h4 {
 body .container p {
   font-size: 1.4rem;
   line-height: 1.7rem;
-  margin: 10px;
+  margin: 15px;
 }
 body .container img {
   max-width: 95%;
@@ -195,7 +195,6 @@ body .container img {
 }
 body .container section {
   margin: 15px auto;
-  padding: auto 0;
   background: #556f7e;
   width: 95%;
   border: 1px solid #f3f3f3;
@@ -239,6 +238,12 @@ body .container .sign-up button:hover {
 body .container .testimonials {
   display: flex;
   flex-direction: column;
+}
+@media (min-width: 750px) {
+  body .container .testimonials img {
+    max-height: 300px;
+    max-width: 80%;
+  }
 }
 .width-100 {
   width: 100%;
@@ -304,11 +309,6 @@ footer .contact {
   }
 }
 @media (min-width: 750px) {
-  .img-carousel {
-    height: 500px;
-  }
-}
-@media (min-width: 750px) and (min-width: 1200px) {
   .img-carousel {
     height: 700px;
   }

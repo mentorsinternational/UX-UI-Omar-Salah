@@ -103,7 +103,7 @@ body{
         p{
             font-size: 1.4rem;
             line-height: 1.7rem; 
-            margin: 10px;
+            margin: 15px;
         }
         
         img{
@@ -121,7 +121,6 @@ body{
 
         section{
             margin: 15px auto;
-            padding: auto 0;
             background: rgb(85, 111, 126);
             width: 95%;
             border: 1px solid @border-color;
@@ -166,6 +165,12 @@ body{
         .testimonials{
             display: flex;
             flex-direction: column;
+            @media @tablet {
+                img{
+                    max-height: 300px;
+                    max-width: 80%;
+                }
+            }
         }
     }
 }
