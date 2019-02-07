@@ -1,3 +1,91 @@
+This is a basic Home and Marketing page for Mentors International. An Charitable organization that links
+impoverished citizens of the developing world with both crucial financial loans, as well as mentors int the
+world of Entrepreneurship. 
+
+This organization has tasked our team with creating an application that is geared to their affiliates around the
+world and can:
+        Create and Schedule reminders
+                For both mentors and Mentees
+                Create, Schedule, and send text reminders(independently of a mobile carrier)
+                Create, and manage a contact list.
+
+This is the marketing landing page for the newly designed, and released product developed by the team, as well as a mock up design
+of a Home page for the company that links off to the new app log-in, and marketing pages.
+
+The marketing page is designed to convert site traffic to users of the app.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Devs>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Frameworks && Libraries>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+HTML:
+        Vanilla.
+
+CSS Styling:
+        These pages, and components are styled and compiled from Less files(I have them include in the file tree).
+
+JavaScript Libraries:
+        GreenSock (GSAP) TweenMax is used for animations.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<File Tree>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assets: Is used to store all dependent assets such as images.
+        -All .png & .jpg
+
+
+
+Components: Stores the JavaScript Component constructors for all JS functionality, as well as styling (in Less)for all iterations of the components.
+        - Carousel: Carousel constructor && dependencies styling
+                Carousel.js
+                Carousel.less
+        - Drawer: 90% complete component constructor(waiting for styling) and Unbuilt less styles.[un-used component]
+                Drawer.js
+                Drawer.less
+        - Tabs: Tabs constructor && dependent stylings
+                Tabs.js
+                tabs.less
+
+
+
+CSS: Stores the Compiled Less attributes in CSS3 for rendering by the browser.
+Less:
+        Stores All Less files (excluding those linked to components) that are compiled to index.CSS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # UX-UI-Omar-Salah
 UX/UI 5 Week project.
 User Interface Project Week
