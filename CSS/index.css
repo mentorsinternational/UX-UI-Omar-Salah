@@ -163,7 +163,7 @@ body .container a {
 }
 body .container h2 {
   font-size: 2.5rem;
-  margin: 30px;
+  margin: 45px;
   text-decoration: underline;
 }
 body .container h3 {
@@ -190,11 +190,12 @@ body .container img {
 @media (min-width: 750px) {
   body .container img {
     max-height: 500px;
+    max-width: 80%;
   }
 }
 body .container section {
   margin: 15px auto;
-  padding: 15px 0;
+  padding: auto 0;
   background: #556f7e;
   width: 95%;
   border: 1px solid #f3f3f3;
@@ -309,14 +310,21 @@ footer .contact {
 }
 @media (min-width: 750px) and (min-width: 1200px) {
   .img-carousel {
-    height: 800px;
+    height: 700px;
   }
 }
 .review {
   min-height: 100px;
-  max-height: 200px;
-  max-width: 40%;
-  margin: auto;
+  max-width: 50%;
+  padding-bottom: 30px;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  margin: 15px auto;
+}
+@media (min-width: 1200px) {
+  .review {
+    max-width: 40%;
+  }
 }
 .carousel {
   display: flex;
@@ -327,6 +335,10 @@ footer .contact {
   position: relative;
   overflow: hidden;
   margin-top: auto;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .carousel img {
   max-height: 300px;
@@ -355,6 +367,9 @@ footer .contact {
   z-index: 10;
   opacity: 0.2;
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .carousel .left-button:hover,
 .carousel .right-button:hover {
