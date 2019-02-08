@@ -90,6 +90,21 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+.dont-worry-about-it {
+  position: fixed;
+  bottom: -500px;
+  right: 2%;
+}
+@media (min-width: 750px) {
+  .dont-worry-about-it {
+    right: 17%;
+  }
+}
+@media (min-width: 750px) and (min-width: 1200px) {
+  .dont-worry-about-it {
+    right: 2%;
+  }
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -126,66 +141,88 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.container {
+body {
+  background: #3a3a3a;
+}
+body .container {
   min-width: 100px;
   max-width: 1300px;
-  background: #3a3a3a;
   margin: 0 auto;
   text-align: center;
   color: white;
+  line-height: 1.2rem;
+  position: relative;
 }
-.container a {
+body .container .logo {
+  max-width: 40%;
+  max-height: 150px;
+}
+body .container a {
+  margin: 15px;
+  font-size: 1.5rem;
+}
+body .container h2 {
+  font-size: 2.5rem;
+  margin: 45px;
+  text-decoration: underline;
+}
+body .container h3 {
+  font-size: 2rem;
+  margin: 20px;
+  line-height: 1.7rem;
+}
+body .container h4 {
+  font-size: 1.6rem;
+  margin: 20px;
+  line-height: 1.7rem;
+}
+body .container p {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
   margin: 15px;
 }
-.container h2 {
-  font-size: 2rem;
-  margin: 5px;
+@media (min-width: 750px) {
+  body .container p {
+    margin-bottom: 3%;
+  }
 }
-.container h3 {
-  font-size: 1.5rem;
-  margin: 10px;
-}
-.container p {
-  font-size: 1.2rem;
-  line-height: 1.7rem;
-  margin: 10px;
-}
-.container img {
+body .container img {
   max-width: 95%;
   height: auto;
   margin: 15px auto;
   border-radius: 10px;
 }
 @media (min-width: 750px) {
-  .container img {
+  body .container img {
     max-height: 500px;
+    max-width: 80%;
   }
 }
-.container section {
+body .container section {
   margin: 15px auto;
-  padding: 15px 0;
   background: #556f7e;
   width: 95%;
   border: 1px solid #f3f3f3;
   border-radius: 10px;
+  overflow: hidden;
 }
-.container ul {
+body .container ul {
   text-align: left;
   font-size: 1.2rem;
   list-style: disc;
   padding: 15px;
 }
-.container ul li {
+body .container ul li {
   text-align: left;
   margin: 10px;
 }
-.container .sign-up {
+body .container .sign-up {
   text-align: center;
 }
-.container .sign-up button {
+body .container .sign-up button {
   width: 80%;
   height: 70px;
-  margin: 0 auto;
+  margin: 30px auto;
   border: 1px solid #f3f3f3;
   background: #62cdff;
   font-size: 1.5rem;
@@ -193,25 +230,26 @@ table {
   transition: 1s;
 }
 @media (min-width: 1200px) {
-  .container .sign-up button {
-    max-width: 33%;
+  body .container .sign-up button {
+    max-width: 30%;
   }
 }
-.container .sign-up button:hover {
+body .container .sign-up button:hover {
   transform: scale(1.2);
   background: black;
   color: #62cdff;
   cursor: pointer;
 }
-.container .testimonials {
+body .container .testimonials {
   display: flex;
   flex-direction: column;
+  padding: 2%;
 }
-.container .testimonials .testimony {
-  display: none;
-  width: 100%;
-  flex-direction: column;
-  opacity: 0;
+@media (min-width: 750px) {
+  body .container .testimonials img {
+    max-height: 300px;
+    max-width: 80%;
+  }
 }
 .width-100 {
   width: 100%;
@@ -228,11 +266,6 @@ header {
   header header {
     border-radius: 10px;
   }
-}
-header img {
-  max-width: 40%;
-  max-height: 150px;
-  margin: 0 auto;
 }
 header nav {
   display: flex;
@@ -251,6 +284,7 @@ header nav a:hover {
 }
 footer {
   background: #262626;
+  overflow: hidden;
 }
 footer nav {
   display: flex;
@@ -265,6 +299,39 @@ footer nav a {
 footer nav a:hover {
   transform: scale(1.2);
 }
+footer .trademark {
+  font-size: 1rem;
+}
+footer .contact {
+  margin: 75px auto;
+  width: 30%;
+  text-align: center;
+  transition: 1s;
+  font-size: 1rem;
+}
+@media (min-width: 750px) {
+  footer .contact {
+    transform: scale(1.5);
+  }
+}
+@media (min-width: 750px) {
+  .img-carousel {
+    height: 700px;
+  }
+}
+.review {
+  min-height: 100px;
+  max-width: 50%;
+  padding-bottom: 30px;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  margin: 15px auto;
+}
+@media (min-width: 1200px) {
+  .review {
+    max-width: 40%;
+  }
+}
 .carousel {
   display: flex;
   justify-content: center;
@@ -273,10 +340,28 @@ footer nav a:hover {
   max-height: auto;
   position: relative;
   overflow: hidden;
-  margin-top: 16px;
+  margin-top: auto;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.carousel img {
+  max-height: 300px;
+  max-width: 80%;
+  margin: 25px auto;
+}
+@media (min-width: 750px) {
+  .carousel img {
+    max-height: 600px;
+  }
 }
 .carousel .left-button,
 .carousel .right-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   color: #f3f3f3;
   background-color: #2a2a2a;
   font-size: 40px;
@@ -286,8 +371,11 @@ footer nav a:hover {
   height: 50px;
   cursor: pointer;
   z-index: 10;
+  opacity: 0.2;
   user-select: none;
-  opacity: 0.3;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .carousel .left-button:hover,
 .carousel .right-button:hover {
@@ -306,8 +394,20 @@ footer nav a:hover {
   right: 25px;
   transform: translate(0, -50%);
 }
-.carousel .hidden {
+.carousel .item {
   display: none;
+  width: 100%;
+  flex-direction: column;
+  opacity: 0;
+}
+.carousel .card-container {
+  height: 300px;
+}
+.carousel .card-container .card {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  opacity: 0;
 }
 .tabs {
   width: 95%;
@@ -318,7 +418,7 @@ footer nav a:hover {
   height: auto;
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 25px;
 }
 .tabs .tabs-item {
   display: none;

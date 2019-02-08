@@ -1,11 +1,25 @@
 .carousel {
-    .flex(center, center);
+    .flex(center, center,);
     max-height: auto;
     position: relative;
     overflow: hidden;
-    margin-top: 16px;
-    
+    margin-top: auto;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+    img{
+      max-height: 300px;
+      max-width: 80%;
+      margin: 25px auto;
+      @media @tablet{
+        max-height: 600px;
+      }
+  }
+      
     .left-button, .right-button {
+      .flex(center,center);
       color: @border-color;
       background-color: rgb(42, 42, 42);
       font-size: 40px;
@@ -15,8 +29,11 @@
       height: 50px;
       cursor: pointer;
       z-index: 10;
+      opacity: .2;
       user-select: none;
-      opacity: .3;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
 
       &:hover {
         color: black;
@@ -35,8 +52,20 @@
       right: 25px;
       transform: translate(0, -50%);
     }
-
-    .hidden{
+    .item{
         display: none;
+        width:100%;
+        flex-direction: column;
+        opacity: 0;
     }
-  }
+    .card-container{
+      height: 300px;
+
+      .card{
+        display: none;
+        width:100%;
+        flex-direction: column;
+        opacity: 0;
+      }
+    }
+}

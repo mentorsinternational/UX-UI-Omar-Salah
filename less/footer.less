@@ -1,6 +1,7 @@
 footer{
     background: @footer-bg;
-
+    overflow: hidden;
+    
     nav{
         display: flex;
         justify-content: space-around;
@@ -14,6 +15,21 @@ footer{
             &:hover{
                 transform: scale(1.2)
             }
+        }
+    }
+
+    .trademark{
+        font-size: 1rem;
+    }
+    .contact{
+        margin: 75px auto;
+        width: 30%;
+        text-align: center;
+        transition: 1s;
+        font-size: 1rem;
+
+        @media @tablet {
+            transform: scale(1.5)
         }
     }
 }
