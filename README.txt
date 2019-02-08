@@ -1,4 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 This is a basic Home and Marketing page for Mentors International. An Charitable organization that links
 impoverished citizens of the developing world with both crucial financial loans, as well as mentors int the
 world of Entrepreneurship. 
@@ -15,9 +16,11 @@ a mock up design of a Home page for the company that links off to the new app lo
 
 The marketing page is designed to convert site traffic to users of the app.
 
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Devs>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Frameworks && Libraries>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 HTML:
         Vanilla.
 
@@ -26,6 +29,8 @@ CSS Styling:
 
 JavaScript Libraries:
         GreenSock (GSAP) TweenMax is used for animations.
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<File Tree>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Assets: Is used to store all dependent assets such as images.
@@ -59,7 +64,7 @@ Less: Stores All Less files (excluding those linked to components) that are comp
         -variables.less (Frequently used less variables for styling)
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Lambda>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Lambda>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # UX-UI-Omar-Salah
 UX/UI 5 Week project.
@@ -94,7 +99,9 @@ Stretch:
 [x]   Build a Component
 [x]   Use Array method
 
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 A hidden riddle for those who look.
 The next hint is tied to the last.
 
