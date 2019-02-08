@@ -103,11 +103,11 @@ Number V + 11 == 10
 Number * 4 
         Y29uY2F0ZW5hdGUg
 Or Shall we bo back to basics?
-        OffOnOnOffOnOnOnOff OffOnOnOffOnOnOnOn OffOnOnOnOffOnOnOn OffOffOnOffOffOffOffOff OffOnOnOnOffOnOnOn OffOnOnOffOnOffOffOn OffOnOnOnOffOnOffOff OffOnOnOffOnOffOffOff 
-        OffOffOnOffOffOffOffOff OffOnOnOffOnOffOnOn OffOnOnOffOffOnOffOn OffOnOnOnOnOffOffOn OffOffOnOffOffOffOffOff OffOnOnOffOffOnOnOff OffOnOnOnOffOnOffOn OffOnOnOnOffOffOnOn 
-        OffOnOnOffOffOnOffOn OffOnOnOffOffOnOffOff OffOffOnOffOnOnOffOff OffOffOnOffOffOffOffOff OffOnOnOnOffOffOffOff OffOnOnOnOffOnOffOn OffOnOnOffOnOnOnOff OffOnOnOffOffOffOnOn 
-        OffOnOnOffOnOffOffOff OffOffOnOffOffOffOffOff OffOnOnOffOnOffOffOn OffOnOnOffOnOnOnOff OffOffOnOffOffOffOffOff OffOnOnOnOffOnOffOff OffOnOnOffOnOffOffOff OffOnOnOffOffOnOffOn 
-        OffOffOnOffOffOffOffOff OffOnOnOnOffOnOnOn OffOnOnOffOnOffOffOn OffOnOnOffOnOnOnOff OffOnOnOffOffOnOffOff OffOnOnOffOnOnOnOn OffOnOnOnOffOnOnOn
+        01101110 01101111 01110111 00100000 01110111 01101001 01110100 01101000 
+        00100000 01101011 01100101 01111001 00100000 01100110 01110101 01110011 
+        01100101 01100100 00101100 00100000 01110000 01110101 01101110 01100011 
+        01101000 00100000 01101001 01101110 00100000 01110100 01101000 01100101 
+        00100000 01110111 01101001 01101110 01100100 01101111 01110111
 
 Try
 
