@@ -1,3 +1,4 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This is a basic Home and Marketing page for Mentors International. An Charitable organization that links
 impoverished citizens of the developing world with both crucial financial loans, as well as mentors int the
 world of Entrepreneurship. 
@@ -14,17 +15,17 @@ of a Home page for the company that links off to the new app log-in, and marketi
 
 The marketing page is designed to convert site traffic to users of the app.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Devs>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Frameworks && Libraries>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Devs>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Frameworks && Libraries>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 HTML:
         Vanilla.
 
 CSS Styling:
-        These pages, and components are styled and compiled from Less files(I have them include in the file tree).
+        These pages, and components Are styled and compiled from Less files(I have them include in the file tree).
 
 JavaScript Libraries:
         GreenSock (GSAP) TweenMax is used for animations.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<File Tree>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<File Tree>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Assets: Is used to store all dependent assets such as images.
         -All .png & .jpg
@@ -61,18 +62,6 @@ Less: Stores All Less files (excluding those linked to components) that are comp
 UX/UI 5 Week project.
 User Interface Project Week
 
-You are to treat this week as if you are working as a front end developer at a web development agency. The instructor is the owner of the agency and is under pressure from the client to deliver the product, a custom marketing website, on time. The project managers are acting as your supervisors.
-
-This week you will be building a website for a non-profit. Mentor International have requested a minimum viable product to deliver to their board of directors by the end of the week. The requirements are listed below under MVP Features.Mentors International also have a wish list of extra features they would love to showcase to the board if you can get them done. You will demonstrate your work to the agency owner Thursday afternoon.
-
-You will use Trello to report your progress on the MVP and any extra features you accomplish to your project managers every day during standup. This project is meant to be worked on by yourself. Do not pair program this week as this challenge is meant to show you where you can improve and what you have learned on your own.
-Pro Tips For This Week:
-
-    Use past solutions from the previous weeks to accomplish harder tasks
-    Commit every time you accomplish any new functionality or layout. Get in the habit of frequent commits so you have a record of your work. Push up your commits every day to showcase your progress to your PM
-    After 20 minutes of being stuck on something, reach out to your PM
-    Don't overplan, start coding as soon as you can and adjust accordingly. Trello is there as a guide not as a distraction
-
 Trello Set Up:
 
 [x] Create a Trello account
@@ -88,22 +77,38 @@ Assets Provided:
 
 MVP Features:
 
-These MVP features represent the fundamental knowledge you should have obtained throughout the last 4 weeks. If you cannot accomplish all of the MVP tasks listed here, you may be a candidate for the mastery based program.
-
 [x]    Build layout HTML/LESS: Home page mobile first design
 [x]    Build layout HTML/LESS: Home page desktop design
         [X] Add breakpoints
-[x]    Build layout style using LESS
-        [x] Add mixins
-        [x] Add variables
-[x]    Build layout : Navigation system design
         [x] link to react app
-[x]    Build Custom Component HTML/LESS/JavaScript
+[x]    DOM manipulation
+[x]    2 Pages
 
-Once you have accomplished the required MVP features, reach out to your project manager for approval to work on extra features of your choice. This project does not end at MVP. Try to get as many extra features into your project as you can before the demonstration!
+Stretch:
+[x]   Tablet design
+[x]   Pair Program with Front-End
+[x]   Build a Component
+[x]   Use Array method
 
-Extra Features:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                
+A hidden riddle for those who look.
+The next hint is tied to the last.
 
-Extra features are not in order of importance, it's just a list of features the client wishes they could have by the demo. Pick in any order you wish.
+CryptoCash Crypto Crashed, but the nice thing about Crypto is that is doesn't always bite you in the ;)
 
-Remember: This is a self driven challenge, try to accomplish MVP as soon as you can and stretch as much as you can on extra features. Have fun with this and remember to reach out to your project managers after the 20 minute rule. Good luck!
+Ceasar is your first clue.
+        dgdp
+Number V + 11 == 10
+ ||     61 70 70 72 6f 76 65 73
+Number * 4 
+        Y29uY2F0ZW5hdGUg
+Or Shall we bo back to basics?
+        OffOnOnOffOnOnOnOff OffOnOnOffOnOnOnOn OffOnOnOnOffOnOnOn OffOffOnOffOffOffOffOff OffOnOnOnOffOnOnOn OffOnOnOffOnOffOffOn OffOnOnOnOffOnOffOff OffOnOnOffOnOffOffOff 
+        OffOffOnOffOffOffOffOff OffOnOnOffOnOffOnOn OffOnOnOffOffOnOffOn OffOnOnOnOnOffOffOn OffOffOnOffOffOffOffOff OffOnOnOffOffOnOnOff OffOnOnOnOffOnOffOn OffOnOnOnOffOffOnOn 
+        OffOnOnOffOffOnOffOn OffOnOnOffOffOnOffOff OffOffOnOffOnOnOffOff OffOffOnOffOffOffOffOff OffOnOnOnOffOffOffOff OffOnOnOnOffOnOffOn OffOnOnOffOnOnOnOff OffOnOnOffOffOffOnOn 
+        OffOnOnOffOnOffOffOff OffOffOnOffOffOffOffOff OffOnOnOffOnOffOffOn OffOnOnOffOnOnOnOff OffOffOnOffOffOffOffOff OffOnOnOnOffOnOffOff OffOnOnOffOnOffOffOff OffOnOnOffOffOnOffOn 
+        OffOffOnOffOffOffOffOff OffOnOnOnOffOnOnOn OffOnOnOffOnOffOffOn OffOnOnOffOnOnOnOff OffOnOnOffOffOnOffOff OffOnOnOffOnOnOnOn OffOnOnOnOffOnOnOn
+
+Try
+
+61 64 61 6d 73 77 61 74 63 68 69 6e 67 0d 0a
