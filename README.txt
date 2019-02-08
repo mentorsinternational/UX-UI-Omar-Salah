@@ -1,4 +1,4 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This is a basic Home and Marketing page for Mentors International. An Charitable organization that links
 impoverished citizens of the developing world with both crucial financial loans, as well as mentors int the
 world of Entrepreneurship. 
@@ -10,13 +10,14 @@ world and can:
                 Create, Schedule, and send text reminders(independently of a mobile carrier)
                 Create, and manage a contact list.
 
-This is the marketing landing page for the newly designed, and released product developed by the team, as well as a mock up design
-of a Home page for the company that links off to the new app log-in, and marketing pages.
+This is the marketing landing page for the newly designed, and released product developed by the team, as well as
+a mock up design of a Home page for the company that links off to the new app log-in, and marketing pages.
 
 The marketing page is designed to convert site traffic to users of the app.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Devs>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Frameworks && Libraries>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Devs>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Frameworks && Libraries>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 HTML:
         Vanilla.
 
@@ -25,13 +26,14 @@ CSS Styling:
 
 JavaScript Libraries:
         GreenSock (GSAP) TweenMax is used for animations.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<File Tree>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<File Tree>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Assets: Is used to store all dependent assets such as images.
         -All .png & .jpg
 
 
-Components: Stores the JavaScript Component constructors for all JS functionality, as well as styling (in Less)for all iterations of the components.
+Components: Stores the JavaScript Component constructors for all JS functionality, as well as styling (in Less)for 
+all iterations of the components.
         - Carousel: Carousel constructor && dependencies styling
                 Carousel.js (Carousel constructor && methods)
                 Carousel.less (All Carousel && dependencies stylings)
@@ -48,7 +50,8 @@ CSS: Stores the Compiled Less attributes in CSS3 for rendering by the browser.
 
 
 Less: Stores All Less files (excluding those linked to components) that are compiled to index.CSS.
-        -index.less (Imports all Less files[includes components] for compilation to index.css && sets theme style base template)
+        -index.less (Imports all Less files[includes components] for compilation to index.css && sets theme style 
+        base template)
         -header.less (All header stylings)
         -footer.less (All footer stylings)
         -marketing.less (All marketing.html SPECIFIC styling)
@@ -56,7 +59,7 @@ Less: Stores All Less files (excluding those linked to components) that are comp
         -variables.less (Frequently used less variables for styling)
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Lambda>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Lambda>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # UX-UI-Omar-Salah
 UX/UI 5 Week project.
@@ -69,7 +72,8 @@ Trello Set Up:
 [x] Create lists to help track tasks
 [x] Fill in the To Do list with the MVP features listed below
 [x] Fill in the stretch list with stretch tasks
-[x] Share your board with the Project Manager that has been assigned to you. If you have not been assigned yet, reach out to your lead TA for guidance
+[x] Share your board with the Project Manager that has been assigned to you. If you have not been assigned yet, 
+        reach out to your lead TA for guidance
 
 Assets Provided:
 
@@ -90,7 +94,7 @@ Stretch:
 [x]   Build a Component
 [x]   Use Array method
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A hidden riddle for those who look.
 The next hint is tied to the last.
 
