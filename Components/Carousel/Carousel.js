@@ -31,8 +31,8 @@ class Carousel {
         this.data !== undefined 
             ? this.card = new Card(document.querySelector(`.card[data-card='${this.data}']`)).cycleLeft()  
             : null
-        TweenMax.to(this.itemList[this.index], 2, { display: 'block', delay: .8, opacity :1, onComplete: () => {this.cycling = false}})
-        this.startTimer()
+        TweenMax.to(this.itemList[this.index], 2, { display: 'block', delay: .8, opacity :1, onComplete: () => {this.cycling = false; this.startTimer()}})
+        
     }
     
     cycleRight () {
@@ -42,13 +42,12 @@ class Carousel {
         TweenMax.to(this.itemList[this.index] , 1.5, {x: 1500} )
         TweenMax.to(this.itemList[this.index] , 0, { delay: .80, display: 'none', x: 0})
         this.index == this.itemList.length - 1 ? this.index = 0 : this.index ++
-        console.log(this.index)
         this.data = this.itemList[this.index].dataset.card
         this.data !== undefined 
             ? this.card = new Card(document.querySelector(`.card[data-card='${this.data}']`)).cycleRight()  
             : null
-        TweenMax.to(this.itemList[this.index], 2, { display: 'block', delay: .8, opacity :1, onComplete: () => {this.cycling = false}})
-        this.startTimer()
+        TweenMax.to(this.itemList[this.index], 2, { display: 'block', delay: .8, opacity :1, onComplete: () => {this.cycling = false; this.startTimer()}})
+        
     }
   }
   

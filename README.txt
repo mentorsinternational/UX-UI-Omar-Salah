@@ -110,7 +110,7 @@ CryptoCash Crypto Crashed, but the nice thing about Crypto is that is doesn't al
 Ceasar is your first clue.
         dgdp
 Number V + 11 == 10
- ||     61 70 70 72 6f 76 65 73
+ ||     61 70 70 72 6f 76 65 73 
 Number * 4 
         Y29uY2F0ZW5hdGUg
 Or Shall we bo back to basics?
