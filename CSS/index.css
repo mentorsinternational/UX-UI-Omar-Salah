@@ -251,6 +251,14 @@ body .container .testimonials {
 		max-width: 80%;
 	}
 }
+body .content {
+	margin-top: 45%;
+}
+@media (min-width: 1000px) {
+	body .content {
+		margin-top: 25%;
+	}
+}
 .width-100 {
 	width: 100%;
 }
@@ -261,14 +269,22 @@ header {
 	display: flex;
 	flex-direction: column;
 	background: #ffffff;
+	max-height: 225px;
+	max-width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 99999;
 }
-@media (min-width: 1000px) {
-	header header {
-		border-radius: 10px;
+@media (min-width: 1500px) {
+	header {
+		max-width: 51%;
 	}
 }
+header a {
+	max-height: 150px;
+}
 header #logo {
-	max-width: 45%;
+	max-height: 65%;
 }
 header nav {
 	display: flex;
