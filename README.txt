@@ -64,40 +64,36 @@ Less: Stores All Less files (excluding those linked to components) that are comp
         -variables.less (Frequently used less variables for styling)
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Lambda>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<Minimum Viable Product>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# UX-UI-Omar-Salah
-UX/UI 5 Week project.
-User Interface Project Week
 
-Trello Set Up:
-
-[x] Create a Trello account
-[x] Create a new public board called "By Your Name"
-[x] Create lists to help track tasks
-[x] Fill in the To Do list with the MVP features listed below
-[x] Fill in the stretch list with stretch tasks
-[x] Share your board with the Project Manager that has been assigned to you. If you have not been assigned yet, 
-        reach out to your lead TA for guidance
+[x] Integrate With Trello
+        [x] Fill in the To Do list with the MVP features listed below
+        [x] Fill in `wishlist` features
+        [x] Verify Scrum can see it
 
 Assets Provided:
-
 [x] Nothing
+        [x] Strip Data From Non-Profits page
 
 MVP Features:
 
-[x]    Build layout HTML/LESS: Home page mobile first design
-[x]    Build layout HTML/LESS: Home page desktop design
-        [X] Add breakpoints
-        [x] link to react app
-[x]    DOM manipulation
-[x]    2 Pages
+[x]    Build layout HTML/CSS:
+        Tooling: Less to compile to CSS
+                 GSAP for animation
+        Design: [x] 2 Pages
+                [x] Mobile First
+                [x] User Interactive
+                [x] Links off to React application
+        
 
-Stretch:
-[x]   Tablet design
-[x]   Pair Program with Front-End
-[x]   Build a Component
-[x]   Use Array method
+
+
+Wishlist Features:
+        [x]   Tablet design
+        [x]   Project Manager Easter Egg
+        [x]   
+        [x]   
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

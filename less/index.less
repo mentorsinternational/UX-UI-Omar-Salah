@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,33 +92,46 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.dont-worry-about-it{
-    position: fixed;
-    bottom: -500px;
-    right: 2%;
-    @media @tablet{
-        right: 17%;
-        @media @desktop{
-            right: 2%;
-        }
-    }
+.dont-worry-about-it {
+	position: fixed;
+	bottom: -500px;
+	right: 2%;
+	@media @tablet {
+		right: 17%;
+		@media @desktop {
+			right: 2%;
+		}
+	}
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
@@ -60,123 +141,123 @@ table {
 }
 
 // ~~~~~~~~~~~~~~~<END CSS RESET>~~~~~~~~~~~~~~~~~~~~~~~~~~
-body{
-    background: rgb(58, 58, 58);
+body {
+	background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.photohdx.com%2Fimages%2F2016%2F03%2Fclose-up-cork-wood-texture.jpg&f=1);
 
-    .container{
-        min-width: 100px;
-        max-width: 1300px;
-        margin: 0 auto;
-        text-align: center;
-        color: white;
-        line-height: 1.2rem;
-        position: relative;
+	.container {
+		min-width: 100px;
+		max-width: 1300px;
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		line-height: 1.2rem;
+		position: relative;
 
-        .logo{
-            max-width: 40%;
-            max-height: 150px;
-        }
+		.logo {
+			max-width: 40%;
+			max-height: 150px;
+		}
 
-        a{
-            margin: 15px;
-            font-size: 1.5rem;
-        }
-        
-        h2{
-            font-size: 2.5rem;
-            margin: 45px;
-            text-decoration: underline;
-        }
+		a {
+			margin: 15px;
+			font-size: 1.5rem;
+		}
 
-        h3{
-            font-size: 2rem;
-            margin: 20px;
-            line-height: 1.7rem;
-        }
+		h2 {
+			font-size: 2.5rem;
+			margin: 45px;
+			text-decoration: underline;
+		}
 
-        h4{
-            font-size: 1.6rem;
-            margin: 20px;
-            line-height: 1.7rem;
-        }
-        
-        p{
-            font-size: 1.4rem;
-            line-height: 1.7rem; 
-            margin: 15px;
-            @media @tablet {
-                margin-bottom: 3%;
-            }
-        }
-        
-        img{
-            max-width: 95%;
-            height:auto;
-            margin: 15px auto;
-            border-radius: 10px;
-        }
-        @media @tablet {
-            img{
-                max-height: 500px;
-                max-width: 80%;
-            }
-        }
+		h3 {
+			font-size: 2rem;
+			margin: 20px;
+			line-height: 1.7rem;
+		}
 
-        section{
-            margin: 15px auto;
-            background: rgb(85, 111, 126);
-            width: 95%;
-            border: 1px solid @border-color;
-            border-radius: 10px;
-            overflow: hidden;
-        }
+		h4 {
+			font-size: 1.6rem;
+			margin: 20px;
+			line-height: 1.7rem;
+		}
 
-        ul{
-            text-align: left;
-            font-size: 1.2rem;
-            list-style: disc;
-            padding: 15px;
-            
-            li{
-                text-align: left;
-                margin: 10px;
-            }
-        }
+		p {
+			font-size: 1.4rem;
+			line-height: 1.7rem;
+			margin: 15px;
+			@media @tablet {
+				margin-bottom: 3%;
+			}
+		}
 
-        .sign-up{
-            text-align: center;
-            button{
-                width: 80%;
-                height:70px;
-                margin: 30px auto;
-                border: 1px solid @border-color;
-                background: @btn-bg-color;
-                font-size: 1.5rem;
-                border-radius: 10px;
-                transition: 1s;
-                @media @desktop{
-                    max-width: 30%;
-                }
-                &:hover{
-                    transform: scale(1.2);
-                    background: black;
-                    color: @btn-bg-color;
-                    cursor: pointer;
-                }
-            }
-        }
-        .testimonials{
-            display: flex;
-            flex-direction: column;
-            padding: 2%;
-            @media @tablet {
-                img{
-                    max-height: 300px;
-                    max-width: 80%;
-                }
-            }
-        }
-    }
+		img {
+			max-width: 95%;
+			height: auto;
+			margin: 15px auto;
+			border-radius: 10px;
+		}
+		@media @tablet {
+			img {
+				max-height: 500px;
+				max-width: 80%;
+			}
+		}
+
+		section {
+			margin: 15px auto;
+			background: rgb(85, 111, 126);
+			width: 95%;
+			border: 1px solid @border-color;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		ul {
+			text-align: left;
+			font-size: 1.2rem;
+			list-style: disc;
+			padding: 15px;
+
+			li {
+				text-align: left;
+				margin: 10px;
+			}
+		}
+
+		.sign-up {
+			text-align: center;
+			button {
+				width: 80%;
+				height: 70px;
+				margin: 30px auto;
+				border: 1px solid @border-color;
+				background: @btn-bg-color;
+				font-size: 1.5rem;
+				border-radius: 10px;
+				transition: 1s;
+				@media @desktop {
+					max-width: 30%;
+				}
+				&:hover {
+					transform: scale(1.2);
+					background: black;
+					color: @btn-bg-color;
+					cursor: pointer;
+				}
+			}
+		}
+		.testimonials {
+			display: flex;
+			flex-direction: column;
+			padding: 2%;
+			@media @tablet {
+				img {
+					max-height: 300px;
+					max-width: 80%;
+				}
+			}
+		}
+	}
 }
 // ~~~~~~~~~~~~~~~<END INDEX GENERAL STYLES>~~~~~~~~~~~~~~~~~~~~~
 @import './variables';
